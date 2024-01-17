@@ -1,0 +1,38 @@
+use sistemaDeCadastro;
+
+Create Table usuarios (
+nome varchar(50),
+email varchar(100),
+idade int
+);
+
+use sistemaDeCadastro;
+
+show tables;
+
+describe usuarios;
+
+insert into usuarios(nome,email,idade) 
+values ("Gustavo","gustavocunha0401@gmail.com",19);
+
+select * from usuarios;
+
+insert into usuarios(nome,email,idade) 
+values ("Rosa","rosaleide9090@gmail.com",55);
+
+insert into usuarios(nome,email,idade) 
+values ("Rademaker","rademaker@gmail.com",53);
+
+select * from usuarios;
+
+select * from usuarios where idade = 55;
+select * from usuarios where nome = "Gustavo";
+select * from usuarios where idade >= 18;
+
+use sistemaDeCadastro;
+Delete from usuarios where nome ="Gustavo";
+
+Update usuarios set email = "rademaker1131@gmail.com" where email = "rademaker@gmail.com";
+
+
+

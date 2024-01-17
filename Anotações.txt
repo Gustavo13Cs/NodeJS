@@ -1,0 +1,10 @@
+e um interpretador Js que n depende do navegador , ou seja , ele e totalmente desvinculado do navegador.
+
+o V8 e oq e o motor do Node e o Libuv e oq faz o back end.
+
+Vantagens - muito leve , utiliza JS, e tem muitas bibliotecas. "npm"
+
+função de calback e uma função que e ativada toda vez que um evento acontece
+
+rota são caminhos pra sua aplicação 
+
