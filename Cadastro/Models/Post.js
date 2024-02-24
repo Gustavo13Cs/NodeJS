@@ -14,4 +14,4 @@ const Post = db.sequelize.define('postagens', {
 // toda vez que executar essa linha , comente dps pra n criar novamente
 // Post.sync({force: true})
 
-module.exports = Post
+module.exports = Post;
